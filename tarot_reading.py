@@ -61,6 +61,9 @@ if n_cards == 5:
 else: #change into outro message
     exit()
 
+#.
+#.
+#.
 
 
 
