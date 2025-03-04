@@ -75,7 +75,7 @@ while True:
     if another_reading=="no"or"No":
         print("Thank you for exploring your tarot reading. Goodbye!")
         break
-    #If you type Yes or YES prints message, only accepts yes
+    #If you type Yes or YES prints message, only accepts yes-- don't know how to fix it
 
 
 
