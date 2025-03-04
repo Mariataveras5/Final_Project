@@ -45,7 +45,6 @@ while True:
             for item in random_cards:
                 print(item)
 
-
     elif n_cards == 5:
         if intention == "relationships":
             random_cards = random.sample(list(relationship_cards.cards.items()), 5)
@@ -72,7 +71,7 @@ while True:
         continue
 
     another_reading= input("Would you like to explore another intention (yes/no)?").lower()
-    if another_reading=="no"or"No":
+    if another_reading=="no":
         print("Thank you for exploring your tarot reading. Goodbye!")
         break
     #If you type Yes or YES prints message, only accepts yes-- don't know how to fix it
