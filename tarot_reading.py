@@ -18,36 +18,46 @@ import random
 if n_cards == 3:
     if intention == "relationships":
         random_cards = random.sample(list(relationship_cards.cards.items()), 3)
-        print(random_cards)
+        for item in random_cards:
+            print(item)
 
-    if intention == "personal growth":
+    elif intention == "personal growth":
         random_cards = random.sample(list(personal_growth_cards.cards.items()), 3)
-        print(random_cards)
+        for item in random_cards:
+            print(item)
 
-    if intention == "decision making":
+    elif intention == "decision making":
         random_cards = random.sample(list(decision_making_cards.cards.items()), 3)
-        print(random_cards)
+        for item in random_cards:
+            print(item)
 
-    if intention == "future":
+    elif intention == "future":
         random_cards = random.sample(list(future_cards.cards.items()), 3)
-        print(random_cards)
+        for item in random_cards:
+            print(item)
+
 
 if n_cards == 5:
     if intention == "relationships":
         random_cards = random.sample(list(relationship_cards.cards.items()), 5)
-        print(random_cards)
+        for item in random_cards:
+            print(item)
 
-    if intention == "personal growth":
+    elif intention == "personal growth":
         random_cards = random.sample(list(personal_growth_cards.cards.items()), 5)
-        print(random_cards)
+        for item in random_cards:
+            print(item)
 
-    if intention == "decision making":
+    elif intention == "decision making":
         random_cards = random.sample(list(decision_making_cards.cards.items()), 5)
-        print(random_cards)
+        for item in random_cards:
+            print(item)
 
-    if intention == "future":
+    elif intention == "future":
         random_cards = random.sample(list(future_cards.cards.items()), 5)
-        print(random_cards)
+        for item in random_cards:
+            print(item)
+
 else: #change into outro message
     exit()
 
