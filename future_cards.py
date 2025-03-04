@@ -1,4 +1,4 @@
-future_tarot_cards = {
+cards = {
     "The Fool": "A new adventure is beginning, full of possibilities. Embrace the unknown, but proceed with awareness.",
     "The Magician": "You are in control of what happens next. Take initiative; the universe supports your efforts.",
     "The High Priestess": "Things are not yet revealed, but answers will come in time. Be patient and trust that clarity will unfold.",

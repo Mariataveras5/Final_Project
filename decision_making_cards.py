@@ -1,4 +1,4 @@
-decision_making_tarot_cards = {
+cards = {
     "The Fool": "You are going through a phase where spontaneity and new opportunities are influencing your decision-making. Take the leap, but be mindful of the risks before committing to a path.",
     "The Magician": "You are going through a time where you have all the resources and skills needed to make a confident choice. Trust your abilities and take action with clarity and intention.",
     "The High Priestess": "You are going through a period where intuition and subconscious insights play a key role in your decisions. Listen to your inner voice and allow time for answers to reveal themselves.",

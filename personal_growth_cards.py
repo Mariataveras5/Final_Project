@@ -1,4 +1,4 @@
-personal_growth_tarot_cards = {
+cards = {
     "The Fool": "This is your time of self-discovery. You’re learning to trust yourself and embrace new experiences. Keep an open mind and heart, but also be mindful of the lessons life is teaching you.",
     "The Magician": "You’re realizing your personal power and ability to shape your reality. Stay focused on your goals and use your talents wisely.",
     "The High Priestess": "A time of deep self-reflection and spiritual insight. Seek wisdom in silence and trust the process. Meditation or a calm activity can be a good idea to reach deeper thoughts about yourself.",

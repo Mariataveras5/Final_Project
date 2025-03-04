@@ -1,4 +1,4 @@
-relationship_tarot_cards = {
+cards = {
     "The Fool": "You are going through a new beginning in love, filled with excitement but also uncertainty. Embrace the journey with an open heart, but don’t ignore red flags.",
     "The Magician": "You are going through a phase of empowerment in your relationships, where your words and actions shape your reality. Use your skills to communicate effectively and manifest the connection you desire.",
     "The High Priestess": "You are going through a period where intuition and hidden truths play a major role. Trust your instincts and observe before making decisions, some answers lie beneath the surface.",
