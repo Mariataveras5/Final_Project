@@ -16,7 +16,7 @@ import decision_making_cards
 import random
 while True:
     intention = input(f"{name}, please choose one of the following intentions: relationships, personal growth, decision making or future: ").lower()
-
+    intention = ' '.join(intention.split())
     if not valid_intention(intention):
         print("I'm sorry we do not offer those types of readings here. Please choose a valid intention.")
         continue
@@ -71,10 +71,11 @@ while True:
         continue
 
     another_reading= input("Would you like to explore another intention (yes/no)?").lower()
+    another_reading = ' '.join(another_reading.split())
     if another_reading=="no":
         print("Thank you for exploring your tarot reading. Goodbye!")
         break
-    #If you type Yes or YES prints message, only accepts yes-- don't know how to fix it
+
 
 
 
