@@ -1,5 +1,5 @@
 print("Welcome, Seeker! Step into the magic of tarot, where insight and guidance await. Open your heart, trust the cards, and let the journey begin!🌙🃏🔮")
-name = input("Welcome, what is your name? ")
+name = input("What is your name? ")
 
 def valid_intention(user_intention):
     """
