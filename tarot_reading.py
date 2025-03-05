@@ -1,3 +1,4 @@
+print("Welcome, Seeker! Step into the magic of tarot, where insight and guidance await. Open your heart, trust the cards, and let the journey begin!🌙🃏🔮")
 name = input("Welcome, what is your name? ")
 
 def valid_intention(user_intention):
@@ -14,6 +15,7 @@ import future_cards
 import personal_growth_cards
 import decision_making_cards
 import random
+
 while True:
     intention = input(f"{name}, please choose one of the following intentions: relationships, personal growth, decision making or future: ").lower()
     intention = ' '.join(intention.split())
