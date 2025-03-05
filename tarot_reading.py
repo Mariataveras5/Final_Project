@@ -70,7 +70,7 @@ while True:
         print("Invalid number of cards. Please choose either 3 or 5")
         continue
 
-    another_reading= input("Would you like to explore another intention (yes/no)?").lower()
+    another_reading= input("Would you like to explore another intention (yes/no)? ").lower()
     another_reading = ' '.join(another_reading.split())
     if another_reading=="no":
         print("Thank you for exploring your tarot reading. Goodbye!")
