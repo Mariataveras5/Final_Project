@@ -1,13 +1,13 @@
 name = input("Welcome, what is your name? ")
 
-def valid_intention(intention):
+def valid_intention(user_intention):
     """
     A function that validates whether the intention answered by the user is one of the 4 options
-    :param intention: intention written by user
+    :param user_intention: intention written by user
     :return: True if valid, otherwise False
     """
     intentions_files = {"relationships": "relationships_cards.py", "personal growth": "personal_growth_cards.py", "future": "future_cards.py","decision making": "decision_making_cards.py"}
-    return intention in intentions_files
+    return user_intention in intentions_files
 
 import relationship_cards
 import future_cards
