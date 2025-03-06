@@ -1,4 +1,4 @@
-print("Welcome, Seeker! Step into the magic of tarot, where insight and guidance await. Open your heart, trust the cards, and let the journey begin!🌙🃏🔮")
+print("Welcome, Seeker! Step into the magic of tarot, where insight and guidance awaits. Open your heart, trust the cards, and let the journey begin!🌙🃏🔮")
 name = input("What is your name? ")
 
 def valid_intention(user_intention):
@@ -29,44 +29,45 @@ while True:
     if n_cards == 3:
         if intention == "relationships":
             random_cards = random.sample(list(relationship_cards.cards.items()), 3)
-            for item in random_cards:
-                print(item)
+            for number, (card, description) in enumerate(random_cards, start=1):
+                print(f"{number}. {card}: {description}")
+
 
         elif intention == "personal growth":
             random_cards = random.sample(list(personal_growth_cards.cards.items()), 3)
-            for item in random_cards:
-                print(item)
+            for number, (card, description) in enumerate(random_cards, start=1):
+                print(f"{number}. {card}: {description}")
 
         elif intention == "decision making":
             random_cards = random.sample(list(decision_making_cards.cards.items()), 3)
-            for item in random_cards:
-                print(item)
+            for number, (card, description) in enumerate(random_cards, start=1):
+                print(f"{number}. {card}: {description}")
 
         elif intention == "future":
             random_cards = random.sample(list(future_cards.cards.items()), 3)
-            for item in random_cards:
-                print(item)
+            for number, (card, description) in enumerate(random_cards, start=1):
+                print(f"{number}. {card}: {description}")
 
     elif n_cards == 5:
         if intention == "relationships":
             random_cards = random.sample(list(relationship_cards.cards.items()), 5)
-            for item in random_cards:
-                print(item)
+            for number, (card, description) in enumerate(random_cards, start=1):
+                print(f"{number}. {card}: {description}")
 
         elif intention == "personal growth":
             random_cards = random.sample(list(personal_growth_cards.cards.items()), 5)
-            for item in random_cards:
-                print(item)
+            for number, (card, description) in enumerate(random_cards, start=1):
+                print(f"{number}. {card}: {description}")
 
         elif intention == "decision making":
             random_cards = random.sample(list(decision_making_cards.cards.items()), 5)
-            for item in random_cards:
-                print(item)
+            for number, (card, description) in enumerate(random_cards, start=1):
+                print(f"{number}. {card}: {description}")
 
         elif intention == "future":
             random_cards = random.sample(list(future_cards.cards.items()), 5)
-            for item in random_cards:
-                print(item)
+            for number, (card, description) in enumerate(random_cards, start=1):
+                print(f"{number}. {card}: {description}")
 
     else:
         print("Invalid number of cards. Please choose either 3 or 5")
