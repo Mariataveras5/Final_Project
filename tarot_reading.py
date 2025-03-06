@@ -1,4 +1,5 @@
-name = input("Welcome, what is your name? ")
+print("Welcome, Seeker! Step into the magic of tarot, where insight and guidance await. Open your heart, trust the cards, and let the journey begin!🌙🃏🔮")
+name = input("What is your name? ")
 
 def valid_intention(user_intention):
     """
@@ -14,6 +15,7 @@ import future_cards
 import personal_growth_cards
 import decision_making_cards
 import random
+
 while True:
     intention = input(f"{name}, please choose one of the following intentions: relationships, personal growth, decision making or future: ").lower()
     intention = ' '.join(intention.split())
@@ -70,7 +72,7 @@ while True:
         print("Invalid number of cards. Please choose either 3 or 5")
         continue
 
-    another_reading= input("Would you like to explore another intention (yes/no)?").lower()
+    another_reading= input("Would you like to explore another intention (yes/no)? ").lower()
     another_reading = ' '.join(another_reading.split())
     if another_reading=="no":
         print("Thank you for exploring your tarot reading. Goodbye!")
