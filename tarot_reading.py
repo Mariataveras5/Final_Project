@@ -32,7 +32,6 @@ while True:
             for number, (card, description) in enumerate(random_cards, start=1):
                 print(f"{number}. {card}: {description}")
 
-
         elif intention == "personal growth":
             random_cards = random.sample(list(personal_growth_cards.cards.items()), 3)
             for number, (card, description) in enumerate(random_cards, start=1):
