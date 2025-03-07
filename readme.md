@@ -1,6 +1,7 @@
 # Tarot Reading 
 
-## This is our final project. It consists of choosing a 3-card or 5-card reading from four different intentions.
+## This is our final project. 
+## It consists of choosing a 3-card or 5-card reading from four different intentions.
 
 ### Members:
 1. Marina Garcia
